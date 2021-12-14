@@ -1,0 +1,42 @@
+
+.general-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin-top: 20px;
+}
+
+.field-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+}
+
+.field-row{
+    display: flex;
+}
+
+.field-item{
+    width: 50px;
+    height: 50px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
